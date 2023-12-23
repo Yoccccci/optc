@@ -16,11 +16,6 @@ nav {
   background-color: #364e8b;
 }
 
-/* ロゴ */
-.logo {
-  size: 22px;
-}
-
 /* 文字情報 */
 .nav-links {
   display: flex;
@@ -62,6 +57,9 @@ nav {
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
+  }
+  .nav .Logo {
+    margin-right: 15px;
   }
 
   .nav-links {
