@@ -7,9 +7,12 @@
   font-family: "M PLUS Rounded 1c", sans-serif;
 }
 
-body {
+body{
   overflow-x: hidden;
- }
+  }
+  .iOS_body{
+  overflow-w: hidden;
+  }
 
 /* ナビゲーション */
 nav {
